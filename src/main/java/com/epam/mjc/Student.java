@@ -20,7 +20,7 @@ public enum Student {
   private String name;
   private int age;
 
-  Student(long id, String name, int age) {
+  private Student(long id, String name, int age) {
     this.id = id;
     this.name = name;
     this.age = age;
